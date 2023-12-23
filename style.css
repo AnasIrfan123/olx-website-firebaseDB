@@ -1,0 +1,97 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(59, 59, 197);
+}
+
+.header{
+    width: 26em;
+    height: 22em;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.container .header .items input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 50%;
+}
+.header h1{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.header .items{
+    padding-top: 20px;
+}
+
+.header .items button{
+    width: 10em;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+#emalStylg{
+   padding: 8px;
+   font-size: 16px;
+   background-image: url("assets/email.png");
+   background-repeat: no-repeat;
+   background-size: 18px;
+   background-position: right;
+   padding-right: 25px;
+   cursor: pointer;
+   margin-bottom: 18px;
+}
+#psdStylg{
+    padding: 8px;
+    font-size: 16px;
+    background-image: url("assets/images-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: right;
+    padding-right: 25px;
+    cursor: pointer;
+   margin-bottom: 18px;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.txtEmal{
+    padding-right: 9em;
+}
+.txtPsd{
+    padding-right: 7.5em;
+}
+p{
+    font-size: 20px;
+}
+a.regis-link{
+    text-decoration: none;
+}
+a.regis-link:hover{
+    text-decoration: underline 1px solid;
+  
+}
+
+/* MEDIA QUERY */
+
+
+
+

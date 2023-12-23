@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-Ad</title>
+    <link rel="stylesheet" href="postAd.css">
+
+    <script
+    src="https://kit.fontawesome.com/4f12ad9e85.js"
+    crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="header">
+            
+            <h1>Post Add</h1>
+
+            <div class="items">
+                
+                <div class="inp">
+                    <p class="titl">Title :-</p>
+                    <input type="text" placeholder="Enter a Title ">
+                </div>
+
+                <div class="inp">
+                    <p class="descrip">Description :-</p>
+                    <input type="text" placeholder="Enter Description">
+                </div>
+
+                <div class="inp">
+                    <p class="amont">Amount :-</p>
+                    <input type="number" placeholder="Enter Amount">
+                </div>
+
+                <div class="file">
+                    <p>Select File</p>
+                    <input type="file" > 
+                </div>
+
+                <div>
+                    <button class="submit" onclick="onSubmit()">Submit</button>
+                    <button class="back" onclick="onBack()">Back To <i class="fa-solid fa-house-chimney-user"></i></button>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>  
+
+    <script type="module" src="./postAd.js"></script>
+</body>
+</html>
+
+<!-- 
+    post add krte hoe user ki id bhjo
+ -->
+ <!-- or sb se main kam Registered krte waqt add Doc ki jaga set Doc kren firebase se aur user id ki id k sathn karen
+ detail me user ki information bhi manwane ha 
+
+
+ jb ap registered krengy to add doc document me ataa ha ye doc ye jb ap jb detail me uid legy to har dfa random deta ha to ye apko 
+ firebase ki docs me sy set Doc dekhna paregab ye random uid nh set krta ha  -->

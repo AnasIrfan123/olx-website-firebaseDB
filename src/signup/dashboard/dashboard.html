@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script
+    src="https://kit.fontawesome.com/4f12ad9e85.js"
+    crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-div">
+          <div class="bar-item flex-div">
+            <!-- <img  width="40px" alt="" /> -->
+            <img src="" alt="">
+          </div>
+          <div class="bar-item">
+            <a href=""><i class="fa-solid fa-car"></i> MOTORS</a>
+          </div>
+          <div class="bar-item">
+            <a href=""><i class="fa-regular fa-building"></i> PROPERTY</a>
+          </div>
+
+        </div>
+
+        <div class="middle">
+            <div class="sec-item flex-div">
+              <img src="" width="90px" />
+            </div>
+    
+            <div class="sec-item flex-div cls2">
+              <select class="selectInput" name="" id="">
+                <option value="Pakistan">Pakistan</option>
+                <option value="Gadap">Gadap, town karachi</option>
+                <option value="Gulshan">Gulshan</option>
+                <option value="North Nazimabad">North Nazimabad</option>
+              </select>
+            </div>
+    
+            <div class="sec-item flex-div cls3">
+              <input
+                class="selectInput search"
+                type="search"
+                placeholder="Find Cars, Mobile Phones and more.."
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+    
+          <!-- ---------------------user email---------------------------- -->
+            <div class="sec-item flex-div">
+              <!-- <a id="login" href="../../../signIn.html">Login</a> -->
+
+
+              <p id="email"></p>
+            </div>
+    
+            <!-- ---------------------Logout---------------------------- -->
+            <div class="sec-item flex-div">
+              <!-- <button class="sell-button">
+                <i class="fa-solid fa-plus"></i> SELL
+              </button> -->
+
+              <button onclick="sigout()" class="lgout-btn">Logout</button>
+            </div>
+          </div>
+        </div>
+
+     <!-- ------------Add post btn------------------ -->
+
+        <div>
+          <button class="p0st" onclick="window.location.href = '../Post-Ad/postAd.html'"><i class="fa-solid fa-plus" id="icn"></i> <br> Add Post</button>
+        </div>
+
+      <!-- ------------My-Ads btn------------------ -->
+        <div>
+          <button class="ads" onclick="myAds()"><i class="fa-solid fa-angles-right"></i> My Ads</button>
+        </div>
+
+     <!-- ------------SEARCH ITEM ------------------ -->
+
+     <div class="container">
+
+      <div>
+        <input type="text" placeholder="Search any item" id="Search-inpt">
+        <div>
+          <button>Search</button>
+        </div>
+
+          <div>
+
+            <span>Price</span>
+            <select onchange="">
+              <option value="">NoSort</option>
+              <option value="Asce">Ascending</option>
+              <option value="desc">Decending</option>
+            </select>
+          
+            <!-- <span>Date</span>
+            <select onchange="">
+               <option value="">NoSort</option>
+               <option value="Asce">Oldest</option>
+               <option value="desc">Newest</option>
+            </select> -->
+
+          </div>
+
+      </div>
+     </div>
+   
+    <!-- ------------------card container-------------------------- -->
+
+    <div id="container">
+      
+    </div>
+
+      <!-- ****************footer********************* -->
+
+
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>popular categories</h4>
+                    <ul>
+                        <li><a href="#">cars</a></li>
+                        <li><a href="#">flats for rent</a></li>
+                        <li><a href="#">mobile phones</a></li>
+                        <li><a href="#">jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>trending searches</h4>
+                    <ul>
+                        <li><a href="#">bikes</a></li>
+                        <li><a href="#">watches</a></li>
+                        <li><a href="#">books</a></li>
+                        <li><a href="#">dogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>about us</h4>
+                    <ul>
+                        <li><a href="#">about dubizzle group</a></li>
+                        <li><a href="#">OLX blog</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">OLX for business</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>olx</h4>
+                    <ul>
+                        <li><a href="#">help</a></li>
+                        <li><a href="#">sitemap</a></li>
+                        <li><a href="#">terms</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </footer>
+
+  <!-- ****************footer bottom credit************* -->
+
+  <div class="footer-credit">
+     <div class="nd">
+       <p><strong>Free Classifieds in Pakistan </strong>. © 2006-2023 OLX</p>
+     </div>
+  </div>
+  
+    <script type="module" src="./dashboard.js"></script>
+</body>
+</html>

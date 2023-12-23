@@ -1,0 +1,276 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #f7f8f8;
+    font-size: 0.8em;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+a:hover{
+    color: rgb(76, 76, 245);
+   
+}
+.bar-item{
+    padding: 15px;
+}
+
+.header-sec{
+    padding-top: 4px;
+    width: 100%;
+}
+.selectInput{
+    padding: 10px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.cls2{
+ width: 20%;
+}
+.selectInput:focus{
+    border-color: #23e5db;
+    border-radius: 3px;
+}
+
+.search{
+    padding: 11px;
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 3px;
+}
+.cls3{
+    width: 50%;
+}
+.search:focus{
+    border: 2px solid #23e5db;
+    border-radius: 3px;
+}
+
+.fa-magnifying-glass{
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+}
+/* <!-- ---------------------user email---------------------------- --> */
+/* #login{
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;     
+  text-transform: capitalize;
+} */
+#email{
+    font-size: 12px;
+}
+
+/* <!-- ---------------------Logout---------------------------- -- */
+
+.lgout-btn{
+    color: white;
+    background-color: black;
+    outline: none;
+    border-radius: 8px;
+    width: 80px;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    border: 0.5px solid black
+}
+.lgout-btn:hover{
+    color: #000;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid gray;
+}
+
+/* .sell-button{
+    background-color: #fff;
+    font-weight: bold;
+    padding: 6px;
+    width: 100px;
+    border-radius: 30px;
+    border-top: 5px solid #23e5db;
+    border-right: 5px solid #3a77ff;
+    border-left: 5px solid #ffce32;
+    border-bottom: 5px solid #ffce32;
+} */
+
+.middle{              /*input k cnter gap etc*/
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+/* - ------------Add post btn------------------ */
+
+.p0st{
+  font-size: 15px;
+  padding: 3px;
+  width: 10%;
+  border: 0.5px solid rgb(219, 197, 197);
+  outline: none;
+  border-radius: 12px;
+  background-color: transparent;
+  color: rgb(185, 177, 177);
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  position: fixed;
+  top: 200px;
+  right: 50px;  
+  z-index: 9999;
+}
+.p0st:hover{
+   background-color: rgb(33, 33, 63);
+   color: white;
+   border: none;
+}
+#icn{
+    font-size: 20px;
+}
+/* -- ------------My-Ads btn------------------ */
+.ads{
+    font-size: 16px;
+    padding: 6px;
+    width: 8%;
+    border: 0.5px solid rgb(219, 197, 197);
+    outline: none;
+    border-radius: 8px;
+    background-color: transparent;
+    color: rgb(185, 177, 177);
+    cursor: pointer;
+    position: fixed;
+    top: 290px;
+    right: 63px;
+    z-index: 999;
+}
+.ads:hover{
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+}
+
+/* ----------get dashboard produts cards--------------------- */
+
+.card {
+    width: 220px; 
+    height: 200px;
+    padding: 4px;
+    box-shadow: 10px 10px 6px -7px gray;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease; 
+}
+/* ye card ki width ha    (image pic k width  shyd javs sy set ki ha ) */
+
+.card:hover {
+    transform: translate(-5px, -5px); /* Move the card 5px up and to the left */
+    box-shadow: 15px 15px 10px -7px gray; /* Increase box shadow for the raised effect */
+    background-color: #f0f0f0; /* Change the background color on hover */
+}
+
+#container{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 35px;
+    gap: 30px;
+    /* ********************* */    
+    justify-content: flex-start; /*is proprty se image right pr arahe ha is margin left use kia*/
+    /* margin-left: 40px; */
+/* is margin proprty pr left or right margin do jo [phly wali ha ye responsive me kam krab kr rah ah a */
+}
+
+    /* ********************footer*********************** */
+    .container{
+        max-width: 1170px;
+        margin: auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul{
+        list-style: none;
+    }
+    .footer{
+        background-color:  #ebeeef;
+        padding: 40px 0;
+    }
+    .footer-col{
+       width: 20%;
+       padding: 0 15px;
+    }
+    .footer-col h4{
+        font-size: 13px;
+         color: black;
+         font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 6px;
+    }
+    .footer-col ul li a{
+        font-size: 0.8em;
+        text-transform: capitalize;
+        color: black;
+        text-decoration: none;
+        font-weight: 300;
+        color: #7a7272;
+        display: block;
+    }
+    .footer-col ul li a:hover{
+        color: #000;
+        font-weight: 300;
+    }
+    .footer-col .social-links a{
+       display: inline-block;
+       height: 30px;
+       width: 30px;
+       border: 2px solid gray;
+       border-radius: 15px;
+       margin-right: 5px;
+       text-align: center;
+       line-height: 30px;
+    }
+    ol, ul {
+        padding-left: 0 !important;
+    }
+    
+    /* ********************footer bottom credit************** */
+    
+    .footer-credit{
+        display: flex;
+        justify-content: flex-end;
+        background-color: #002f34;
+        
+    }
+    .nd p{
+        font-size: 12px;
+        color: white;
+        margin: 20px;
+    }

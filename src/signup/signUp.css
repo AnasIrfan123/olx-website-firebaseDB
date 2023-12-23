@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(59, 59, 197);
+}
+
+.header{
+    width: 30%;
+    height: 38em;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.header h1{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.nameStylg{
+    padding: 8px;
+    font-size: 16px;
+    background-image: url("../../Assets/photograpy.png");
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: right;
+    padding-right: 25px;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+.emalStylg{
+    padding: 8px;
+    font-size: 16px;
+    background-image: url("../../Assets/email.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: right;
+    padding-right: 25px;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+.psdStylg{
+    padding: 8px;
+    font-size: 16px;
+    background-image: url("../../Assets/images-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: right;
+    padding-right: 25px;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+.phStylg{
+    padding: 8px;
+    font-size: 16px;
+    background-image: url("../../Assets/call.png");
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: right;
+    padding-right: 25px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.header .items{
+    padding-top: 28px;
+}
+.container .header .items input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgb(189, 184, 184);
+    width: 78%;
+}
+.header .items button{
+    width:60%;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+.txtNam{
+    padding-right: 10.7em;
+}
+.txtEmal{
+    padding-right: 12.6em;
+}
+.txtPsd{
+    padding-right:11.2em;
+}
+.txtCnpsd{
+    padding-right: 7.6em;
+}
+.txtPh{
+    padding-right: 9.2em;
+}
+p{
+    font-size: 20px;
+}
+a.login-link{
+    text-decoration: none;
+}
+a.login-link:hover{
+    text-decoration: underline 1px solid;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+/* MEDIA QUERY */
